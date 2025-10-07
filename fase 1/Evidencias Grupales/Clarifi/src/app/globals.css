@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 96.1%;
+    --foreground: 0 0% 12.9%;
+    --primary: 122 46% 34%;
+    --primary-foreground: 0 0% 100%;
+    --accent: 45 98% 58%;
+    --accent-foreground: 0 0% 12.9%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 100%;
+    --ring: 122 46% 34%;
+  }
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; }
+}
