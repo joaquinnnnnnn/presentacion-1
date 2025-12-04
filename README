@@ -1,0 +1,77 @@
+# Clarifi -- Proyecto Next.js (Guía de instalación)
+
+Aplicación web de finanzas personales desarrollada con:
+
+-   **Next.js 14 (versión recomendada por estabilidad)**
+-   **React**
+-   **PostgreSQL**
+-   **API Routes**
+-   **Node.js**
+
+------------------------------------------------------------------------
+
+## 🚀 Requisitos Previos
+
+Antes de ejecutar el proyecto, asegúrese de tener instalado:
+
+-   **Node.js** (versión recomendada: 18 o 20)
+-   **npm**
+-   **PostgreSQL**
+-   Archivo `.env` con `DATABASE_URL` y `JWT_ACCESS_SECRET`
+
+Ejemplo:
+
+    DATABASE_URL=postgresql://usuario:password@localhost:5432/clarifi
+    JWT_ACCESS_SECRET=secretoseguro
+
+------------------------------------------------------------------------
+
+## ▶️ Instrucciones para Ejecutar el Proyecto
+
+### 1. Clonar el repositorio o descargarlo como .zip
+
+    git clone https://github.com/tuusuario/clarifi.git
+
+### 2. Abrir la terminal dentro de la carpeta del proyecto
+
+Ejemplo:
+
+    cd Clarifi
+
+### 3. Instalar dependencias
+
+    npm install
+
+### 4. Ejecutar el servidor de desarrollo
+
+    npm run dev
+
+### 5. Abrir el navegador e ingresar a:
+
+    http://localhost:3000
+
+------------------------------------------------------------------------
+
+## 📥 Si no puedes clonar el repositorio
+
+Puedes descargar el proyecto desde GitHub mediante este servicio:
+
+https://download-directory.github.io/
+
+------------------------------------------------------------------------
+
+## 📚 Tecnologías utilizadas
+
+-   **Next.js 14**
+-   **React**
+-   **PostgreSQL**
+-   **TailwindCSS**
+-   **Recharts**
+-   **Node.js (API Routes)**
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Autor
+
+Gustavo Hermosilla\Joaquin Toro
+Proyecto de Título -- Ingeniería en Informática
