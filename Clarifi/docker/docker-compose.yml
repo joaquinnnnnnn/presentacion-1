@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:16
+    container_name: clarifi_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Clarifi2025
+      POSTGRES_DB: clarifi
+    ports:
+      - "5432:5432"
+    volumes:
+      - ../db:/docker-entrypoint-initdb.d
+      - ./postgres_data:/var/lib/postgresql/data
